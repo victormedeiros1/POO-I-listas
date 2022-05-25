@@ -1,6 +1,6 @@
 <h1>Questões das Listas de POO I do professor Fabrício Vale - apenas para fins didáticos</h1>
 
-## Questões - Texto 03
+# Questões - Texto 03
   2. Receber dois inteiros e retorná-los em ordem crescente
   3. Receber três números reais e retorná-los em ordem decrescente
   4. Receber um número real e retornar sua raiz quadrada
@@ -18,7 +18,7 @@
   16. (Desafio) Receber um vetor de Strings na forma "nome sobrenome" e modificá-lo para que fique ordenado alfabeticamente por sobrenome. Por exemplo: se o vetor {"robert plant", "ian gillan", "neil young"} for passado como parâmetro, após a execução do método, o conteúdo do vetor deve ser {"ian gillan", "robert plant",  "neil young"}. Sem dicas, se vire sozinho.
   17. (Desafio) Receber um vetor de Strings na forma "nome sobrenome" e modificá-lo para que fique ordenado alfabeticamente por sobrenome e com a forma dos strings alterada para "sobrenome, nome".  Por exemplo: se o vetor {"robert plant", "ian gillan", "neil young"} for passado como parâmetro, após a execução do método, o conteúdo do vetor deve ser {"gillan, ian", "plant, robert",  "young, neil"}
 
-## Questões - Texto 03
+# Questões - Texto 03
   3.1 Obter a data atual do sistema e retorná-la na forma de String.
 
   3.2 Receber uma data (como String) no formato dd/mm/aaaa e retornar a mesma data (como String) no formato "<dia da semana>, <dia> de <nome do mês> de <ano>"
@@ -34,7 +34,6 @@
   3.7 (Desafio) Escreva um método que receba como parâmetro um String representando um caminho para um arquivo executável e execute tal arquivo. Dica: pesquise no       google "java como executar programas externos" (SEM as aspas) e seja feliz (você pode ter que escrever código que não vai entender bem - a ideia aqui é que você       desenrole a solução independentemente de entender o que está acontecendo. Acredite, isso lhe será muito útil em sua vida de programador) 
   
   
-  LINKS:
   TEXTO - 02
   https://sites.google.com/view/fabricio10/p%C3%A1gina-inicial/cursos/poo1/texto02?authuser=0
   
