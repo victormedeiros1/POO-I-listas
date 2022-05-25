@@ -1,5 +1,7 @@
 <h1>Questões das Listas de POO I do professor Fabrício Vale - apenas para fins didáticos</h1>
 
+Baixe os arquivos e abra-os utilizando o BlueJ
+
 # Questões - Texto 03
   2. Receber dois inteiros e retorná-los em ordem crescente
   3. Receber três números reais e retorná-los em ordem decrescente
