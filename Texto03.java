@@ -146,10 +146,10 @@ public class Texto03
                 
                 while(j >= 0 & datasTamanho[j].compareTo(aux) > 0){
                     
-                    datasTamanho[j+1] = datasTamanho[j];
-                    datas[j+1] = datas[j];
+                    datasTamanho[j + 1] = datasTamanho[j];
+                    datas[j + 1] = datas[j];
                     
-                    j = j-1;
+                    j = j - 1;
                 }
                 
                 datasTamanho[j + 1] = aux;
