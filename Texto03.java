@@ -128,10 +128,39 @@ public class Texto03
         
     }
     
-    public String[] questao3_11(String[] datas){  
-        String aux;
+     public String[] questao3_11(String[] datas) 
+    {           
         
-        return datas;
+        Date[] datasTamanho = new Date[datas.length];
+        
+        try{
+            for(int i = 0; i < datas.length; i++){
+                
+                datasTamanho[i] = new SimpleDateFormat("dd/MM/yyyy").parse(datas[i]);
+                
+                Date aux = datasTamanho[i];
+                
+                String auxConvertidoString = datas[i];
+                
+                int j = i - 1;
+                
+                while(j >= 0 & datasTamanho[j].compareTo(aux) > 0){
+                    
+                    datasTamanho[j+1] = datasTamanho[j];
+                    datas[j+1] = datas[j];
+                    
+                    j = j-1;
+                }
+                
+                datasTamanho[j + 1] = aux;
+                
+                datas[j + 1] = auxConvertidoString;
+            }
+            
+            return datas;
+        }catch(Exception e) {
+            return null;       
+        }
     }
     
     public String questao3_12(String data){
