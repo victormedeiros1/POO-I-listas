@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Bank
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment2.params=name
+comment2.target=void\ setName(java.lang.String)
+comment3.params=
+comment3.target=Bank()
+comment4.params=
+comment4.target=double\ totalMoney()
+comment5.params=
+comment5.target=void\ birthdaysRend()
+comment6.params=
+comment6.target=java.util.ArrayList\ getAgencies()
+comment7.params=agencies
+comment7.target=void\ setAgencies(java.util.ArrayList)
+numComments=8
